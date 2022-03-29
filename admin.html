@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/Door_logo.png">
+    <title>Door Corporations - Admin</title>
+</head>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo__container">
+                <i><img class="logo" src="images/Door_logo.png" alt=""></i>
+                <div class="btn__menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="menu">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li class="active"><a href="#">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+
+
+    </section>
+    <section>
+
+        <div class="tabla-admin">
+
+            <div class="admin-container">
+                <div class="table-comands">
+                    <input class="controls" type="text" name="" id="course__name" placeholder="Course">
+                    <input class="controls" type="text" name="" id="professor" placeholder="Professor">
+                    <input class="controls" type="text" name="" id="duration" placeholder="Duration (Weeks)">
+                    <input class="controls" type="text" name="" id="price" placeholder="Price">
+                    <button class="button" id="add">Add</button>
+                    <button class="button" id="add__3">Add x3</button><br><br>
+                    <input class="controls" type="number" id="choose" placeholder="Introduzca un ID">
+                    <button class="button" id="edit">Edit</button>
+                    <button class="button" id="delete">Delete</button><br><br>
+                    <button class="button" id="refresh_table">Refresh table</button>
+                    <button class="button"><a target="_blank" href="https://60da9f01801dcb0017290a77.mockapi.io/cursosDoor">Go to API table</a></button>
+                    <br>
+                    <button class="button"><a target="_blank" href="https://60da9f01801dcb0017290a77.mockapi.io/contact">Go to consultations</a></button>
+
+                </div>
+                <table class="table-admin">
+                    <thead class="comparaciones-header">
+                        <tr class="top-list">
+                            <td>ID</td>
+                            <td>Course</td>
+                            <td>Professor</td>
+                            <td>Duration (Weeks)</td>
+                            <td>Price</td>
+                        </tr>
+                    </thead>
+                    <tbody class="tablebody" id="js__tableBody">
+
+                    </tbody>
+                </table>
+            </div>
+            <h1 id="message"></h1>
+    </section>
+</body>
+
+<script src="js/table_admin.js"></script>
+<script src="js/responsive__menu.js"></script>
+<script src="https://kit.fontawesome.com/8ddcdd42a2.js" crossorigin="anonymous"></script>
+
+</html>

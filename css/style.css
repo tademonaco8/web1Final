@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+
+/*-------------  N a v  b a r  --------------*/
+
+.logo__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: tomato;
+}
+
+.logo {
+    margin-left: 300px;
+    width: 15%;
+}
+
+.btn__menu {
+    padding: 15px;
+}
+
+.btn__menu i {
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    border-bottom: 4px solid tomato;
+    width: 100%;
+    display: flex;
+    background-color: #333;
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+}
+
+ul.navigation.show {
+    display: flex;
+}
+
+ul.navigation li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 20px;
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.navigation li:hover,
+ul.navigation li.active {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+
+/*---------------------------*/
+
+#main_index_top_1 {
+    display: flex;
+    background: tomato;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 50%;
+    /* padding: 10% 0 10% 0; */
+}
+
+#main_index_top_2 {
+    display: flex;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    height: 50%;
+    padding: 20% 0 20% 0;
+}
+
+#main_index_top_3 {
+    display: flex;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    float: left;
+    height: 50%;
+    padding: 10% 0 10% 0;
+}
+
+.p_index_ppal a {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-size: 48px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: 8%;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p_index_ppal a:hover {
+    text-decoration: underline white;
+    color: white;
+    transition: 0.2s;
+}
+
+#logo_index_ppal {
+    display: flex;
+    float: left;
+    width: 100%;
+    padding: 0 2%;
+}
+
+
+/*---------------------about-us--------------------*/
+
+.about-us-main {
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.about-us {
+    background: url(images/IT-BUSINESS-PARTNER.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #333;
+    overflow: hidden;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.about-us-container {
+    padding: 50px;
+    width: 100%;
+    float: right;
+    background-color: tomato;
+}
+
+.about-us-container h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.about-us-text {
+    font-size: 13px;
+    color: #333;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+/*---------------------contact-------------------------*/
+
+.about-us-main {
+    min-height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+#messagecont {
+    text-align: center;
+    color: black;
+}
+
+.contact {
+    background: url(images/banner2.png) no-repeat left;
+    background-size: 55%;
+    background-color: #333;
+    overflow: hidden;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.contact-container {
+    padding: 50px;
+    width: 100%;
+    float: right;
+    background-color: tomato;
+}
+
+.contact-container h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contact-form {
+    font-size: 13px;
+    color: #333;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.input_form {
+    padding: 5px;
+    display: flex;
+}
+
+.maincaptcha {
+    padding: 5px;
+    display: flex;
+}
+
+#btncontact {
+    padding: 5px;
+    display: flex;
+    float: right;
+    background-color: #333;
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    padding: 10px;
+    overflow: hidden;
+}
+
+
+/*----------------resaltado de tabla-------------------*/
+
+tbody tr td.resaltado {
+    color: tomato;
+}
+
+
+/*---------------courses----------------*/
+
+.comparaciones-header {
+    background-color: tomato;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tabla {
+    background: url(images/IT-BUSINESS-PARTNER.jpg) no-repeat right;
+    background-size: 55%;
+    background-color: #333;
+    overflow: hidden;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.table-courses td,
+.table-courses thead tr td {
+    padding: 12px 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.tabla-container {
+    padding: 50px;
+    width: 100%;
+    float: left;
+    background-color: #333;
+}
+
+.tabla-container h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.courses-tittle {
+    color: black;
+}
+
+.filterinput {
+    padding: 3px;
+    margin: 3px 0px;
+    border-radius: 7px;
+}
+
+.filterbtn {
+    padding: 5px;
+    background-color: tomato;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+/*----admin----*/
+
+#message {
+    font-size: larger;
+    text-align: center;
+    color: white;
+}
+
+.table-admin td,
+.table-admin thead tr td {
+    padding: 12px 15px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.table-admin td {
+    color: white;
+}
+
+.table-admin thead tr td {
+    background-color: tomato;
+    color: black;
+}
+
+.admin-container {
+    padding: 50px;
+    width: 100%;
+    float: right;
+    background-color: #333;
+}
+
+.admin-container h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.controls {
+    padding: 3px;
+    margin: 3px 15px 0px 0px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 7px;
+}
+
+.button {
+    padding: 5px;
+    display: flex;
+    float: left;
+    background-color: tomato;
+    border-radius: 7px;
+    font-size: 16px;
+    color: #333;
+}
+
+#refresh_table {
+    padding: 10px 40px;
+}
+
+@media only screen and (min-width:600px) {
+    .btn__menu {
+        display: none;
+    }
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+    }
+    #main_index_top_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        float: left;
+        height: 50%;
+        /* padding: 10% 0 10% 0; */
+    }
+    #main_index_top_2 {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        padding: 20% 0 20% 0;
+    }
+    #main_index_top_3 {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        padding: 21.5% 0 21.5% 0;
+    }
+    .about-us-container {
+        width: 55%;
+        float: right;
+        background-color: tomato;
+        padding: 150px;
+    }
+    .contact-container {
+        width: 55%;
+        float: right;
+        background-color: tomato;
+        padding: 150px;
+    }
+    .tabla-container {
+        width: 55%;
+        float: left;
+        background-color: white;
+        padding: 150px;
+    }
+    .admin-container {
+        background-color: #333;
+        padding: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .table-admin {
+        width: 100%;
+        border-collapse: collapse;
+    }
+}

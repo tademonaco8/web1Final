@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/Door_logo.png">
+    <title>Door Corporations - Contact</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo__container">
+                <i><img class="logo" src="images/Door_logo.png" alt=""></i>
+                <div class="btn__menu"><i class="fas fa-bars"></i></div>
+            </div>
+            <div class="menu">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_us.html">About us</a></li>
+                    <li class="active"><a href="#">Contact</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="contact-main">
+        <div class="contact">
+            <div class="contact-container">
+                <h2>Fill the form so we can contact you</h2>
+                <form class="contact-form" id="captchaform">
+                    <p>Name:<input type="text" class="input_form" id="name-form"></p>
+                    <p>Last name:<input type="text" class="input_form" id="lname-form"></p>
+                    <p>Email:<input type="text" class="input_form" id="mail-form"></p>
+                    <p>Birthdate:<input type="date" class="input_form" id="birthday-form"></p>
+                    <p>Commentary: <textarea class="input_form" cols="50" rows="6" id="tArea-form"></textarea></p>
+                    <p class="captchaconfirm">Captcha: <span class="captchatxt"></span>
+                        <input type="text" placeholder="Enter the captcha here" class="maincaptcha"><span class="captcharesult"></span></p>
+                    <input id="btncontact" type="submit" placeholder="Send">
+                    <span id="messagecont"></span>
+                </form>
+            </div>
+</body>
+<script src="js/responsive__menu.js"></script>
+<script src="https://kit.fontawesome.com/8ddcdd42a2.js" crossorigin="anonymous"></script>
+<script src="js/captcha.js"></script>
+<script src="js/contact.js"></script>
+
+</html>
